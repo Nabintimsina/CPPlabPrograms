@@ -38,8 +38,12 @@ class C{
 		ct = t;
 	}
 		
-	operator F(){
-		return 	F((ct*9/5.0)+ 32);
+	operator F(){	
+    	float f = (ct * 9 / 5.0f) + 32;
+    	F temp(f);
+    	return temp;
+
+//		return 	F((ct*9/5.0)+ 32);
 	}
 	
 	void display()
