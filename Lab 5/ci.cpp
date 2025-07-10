@@ -43,7 +43,7 @@ class C{
     	F temp(f);
     	return temp;
 
-//		return 	F((ct*9/5.0)+ 32);
+//	or	return 	F((ct*9/5.0)+ 32);
 	}
 	
 	void display()
